@@ -44,29 +44,3 @@ Já no **roteamento de uma SPA (Single Page Application) com React Router**:
 | **Estado em memória** | Perdido a cada troca de página | Preservado entre as rotas |
 | **Layout compartilhado** | Precisa ser repetido em cada arquivo `.html` | Reutilizado facilmente com `<Outlet />` |
 
----
-
-## 🚀 Como Executar Localmente
-
-```bash
-# 1. Instalar as dependências
-npm install
-
-# 2. Iniciar o servidor de desenvolvimento
-npm run dev
-```
-
-Acesse `http://localhost:5173` no navegador.
-
----
-
-## 📦 Como Subir para o GitHub (Entrega)
-
-```bash
-git init
-git add .
-git commit -m "feat: implementa SPA multi-pagina com React Router, Outlet, NavLink e useParams"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-git push -u origin main
-```
